@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="15.2.7.0" Ref="2" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v15.2, Version=15.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="Report1" Margins="36, 100, 64, 53" PageWidth="850" PageHeight="1100" ScriptLanguage="VisualBasic" Version="15.2" DataMember="StockMat" DataSource="#Ref-0" DataAdapter="#Ref-1" Font="BrowalliaUPC, 12pt">
+  <Bands>
+    <Item1 Ref="3" ControlType="DetailBand" Name="Detail" HeightF="23.958334" TextAlignment="TopLeft" Padding="0,0,0,0,100">
+      <Controls>
+        <Item1 Ref="4" ControlType="XRLabel" Name="XrLabel4" Text="XrLabel4" SizeF="103.583313,23" LocationFloat="610.4167, 0" Padding="2,2,0,0,96">
+          <DataBindings>
+            <Item1 Ref="5" PropertyName="Text" DataMember="StockMat.ONHAND" />
+          </DataBindings>
+        </Item1>
+        <Item2 Ref="6" ControlType="XRLabel" Name="XrLabel3" Text="XrLabel3" SizeF="98.95834,23" LocationFloat="0, 0" Padding="2,2,0,0,96">
+          <DataBindings>
+            <Item1 Ref="7" PropertyName="Text" DataMember="StockMat.ACCODE" />
+          </DataBindings>
+        </Item2>
+        <Item3 Ref="8" ControlType="XRLabel" Name="XrLabel2" Text="XrLabel2" SizeF="511.458344,23" LocationFloat="98.9583359, 0" Padding="2,2,0,0,96">
+          <DataBindings>
+            <Item1 Ref="9" PropertyName="Text" DataMember="StockMat.ACNAME" />
+          </DataBindings>
+        </Item3>
+      </Controls>
+    </Item1>
+    <Item2 Ref="10" ControlType="TopMarginBand" Name="TopMargin" HeightF="64" TextAlignment="TopLeft" Padding="0,0,0,0,100" />
+    <Item3 Ref="11" ControlType="BottomMarginBand" Name="BottomMargin" HeightF="53" TextAlignment="TopLeft" Padding="0,0,0,0,100" />
+    <Item4 Ref="12" ControlType="GroupHeaderBand" Name="GroupHeader1" HeightF="23.958334">
+      <GroupFields>
+        <Item1 Ref="13" FieldName="GROUPNAME" />
+      </GroupFields>
+      <Controls>
+        <Item1 Ref="14" ControlType="XRLabel" Name="XrLabel1" Text="[GROUPNAME]" SizeF="100,23" LocationFloat="0, 0" Padding="2,2,0,0,96" />
+      </Controls>
+    </Item4>
+    <Item5 Ref="15" ControlType="GroupFooterBand" Name="GroupFooter1" HeightF="23.958334" />
+  </Bands>
+  <ObjectStorage>
+    <Item1 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v15.2" Ref="0" Content="~Xtra#NULL" Type="ReportAppSample.StockDataSet" />
+    <Item2 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v15.2" Ref="1" Content="~Xtra#NULL" Type="ReportAppSample.StockDataSetTableAdapters.StockMatTableAdapter" />
+  </ObjectStorage>
+</XtraReportsLayoutSerializer>
